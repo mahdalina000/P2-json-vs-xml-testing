@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "83234bb5-3fd9-4ec8-b6f9-69e63b0004d2",
+		"name": "P2-WSE-230104040127",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48439454",
+		"_collection_link": "https://mahda2955-4433619.postman.co/workspace/Mahdalina's-Workspace~4bf226a2-9937-46aa-8320-d12f487dfbdc/collection/48439454-83234bb5-3fd9-4ec8-b6f9-69e63b0004d2?action=share&source=collection_link&creator=48439454"
+	},
+	"item": [
+		{
+			"name": "Uji JSON",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts/1",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Uji XML",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
